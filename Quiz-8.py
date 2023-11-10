@@ -6,8 +6,8 @@ for i in range(6):
 print(number)
 
 def gen(number):
-    for i in range(6):
-        for j in range(i+1, 6):
+    for i in range(7):
+        for j in range(i+1, 7):
             if number[i] == number[j]:
                 return True
             else:
