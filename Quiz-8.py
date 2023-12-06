@@ -6,12 +6,12 @@ for i in range(6):
 print(number)
 
 def gen(number):
-    for i in range(7):
-        for j in range(i+1, 7):
+    for i in range(6):
+        for j in range(i+1, 6):
             if number[i] == number[j]:
                 return True
-            else:
-                return False
+
+    return False
 
 if gen(number) == True:
     print("중복이 있습니다.")
